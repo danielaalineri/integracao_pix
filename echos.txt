@@ -1,0 +1,10 @@
+Index
+echo "<pre>";
+print_r($obPayloadQrCode);
+echo "</pre>"; exit;
+
+
+Payload
+  echo "<pre>";
+  print_r($id.$size.$value);
+  echo "</pre>"; exit;
